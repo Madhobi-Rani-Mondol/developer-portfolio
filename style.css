@@ -4,10 +4,13 @@ body{
 }
 h1{
     font-size: 30px;
-    margin-bottom: 100px;
+
 }
 .pink{
     color: blueviolet;
+}
+.orange-color{
+    color: orangered;
 }
 .flexible-cointainer{
     display: flex;
@@ -26,9 +29,9 @@ h1{
 }
    .link-button{
     text-decoration: none;
-  background-image: -moz-linear-gradient(orange, tomato);
+  background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
-  color: rgb(240, 17, 17);
+  color: rgb(5, 1, 1);
   font-weight: 700;
     
     border-radius: 5px;
@@ -41,17 +44,22 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;}
-    .experience-item{
+    .experiences{
+        margin-left: 100px;
+    }
+
+    #web-dev-experience{
+
         width: 40%;
         margin-left: 5%;
         margin-right: 5%;
         padding-left: 20px;
         border-radius: 10px;
-        box-shadow: 10px 10px 40px rgb(68, 17, 30);
-        border: 10px solid;
+        box-shadow: 10px 10px 40px rgb(189, 159, 116);
         border-left: 10px solid;
     }
     #web-dev-experience{
+        
         border-left: 7px solid;
         border-image: linear-gradient(rgb(230, 85, 2), rgb(74, 129, 11));
         border-image-slice: 1;
